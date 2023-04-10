@@ -8,7 +8,8 @@ export default {
     extend: {
       colors: {
         primary: "#706FE5",
-        secundary: "#EAEAFC"
+        secundary: "#EAEAFC",
+        footer: "#2e3e5c"
       }
     },
   },

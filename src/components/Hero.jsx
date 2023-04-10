@@ -43,9 +43,9 @@ const Hero = () => {
         {/**imagen*/}
       <div className="md:col-span-3 flex items-center justify-center relative p-8">
         <div className="w-[250px] h-[250px] md:w-96 md:h-96  relative">
-          <img src="hero.png" className="w-[250px] h-[250px] md:w-96 md:h-96 object-cover absolute " />
-          <div className="absolute w-[250px] ml-[50%] -translate-x-[50%] -bottom-10">
-            <div className="bg-white shadow-xl rounded-lg p-4 flex flex-col gap-2 justify-center max-w-[250px]">
+          <img src="Noelia-bg.png" className="w-[300px] h-[300px] md:w-96 md:h-96 object-cover absolute -mt-[70px] md:left-10" />
+          <div className="absolute w-[300px] ml-[50%] -translate-x-[50%] -bottom-10">
+            <div className="bg-white shadow-xl rounded-lg p-4 flex flex-col gap-2 justify-center max-w-[300px]">
               <div className="flex items-center">
                 <img
                   src="hero.png"
@@ -79,7 +79,7 @@ const Hero = () => {
         <img src="torta.png" className="w-10 h-10 md:w-20 md:h-20 rounded-full object-contain  absolute border-l-8 border-gray-500 top-[15%] left-[15%] " alt="torta.png" />
         <img src="rosa.png" className="w-5 h-5 md:w-10 md:h-10 rounded-full object-contain absolute border-l-4 border-gray-500 top-[5%] left-[5%] bg-blue-300" alt="torta.png" />
         <img src="rosa.png" className="w-10 h-10 md:w-20 md:h-20 rounded-full object-contain absolute border-l-8 border-gray-500 top-[5%] right-[10%] " alt="torta.png" />
-        <div className="absolute w-[250px] h-[250px] md:w-96 md:h-96  rounded-full border-8 border-primary bg-secundary -z-10"></div>
+        <div className="absolute w-[250px] h-[250px] md:w-80 md:h-80  rounded-full border-8 border-primary bg-secundary -z-10"></div>
       </div>
     </section>
   );

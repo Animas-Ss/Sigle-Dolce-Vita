@@ -4,6 +4,8 @@ import {RiSendPlaneFill} from 'react-icons/ri'
 import {BiMenuAltRight} from 'react-icons/bi'
 import {MdClose} from 'react-icons/md'
 
+import {BsInstagram, BsWhatsapp, BsFacebook} from 'react-icons/bs';
+
 const Header = () => {
     const [showMenu, setShowMenu] = useState(false)
 
@@ -22,6 +24,19 @@ const Header = () => {
             <a href='#' className=''>Servicios</a>
             <a href='#' className=''>Productos</a>
         </nav>
+        <div className='hidden'>
+        <ul className='flex items-center gap-4'>
+                    <li>
+                        <a href='#' className='bg-primary text-white p-4 rounded-full block'><BsInstagram /></a>
+                    </li>
+                    <li>
+                        <a href='#' className='bg-primary text-white p-4 rounded-full block'><BsFacebook /></a>
+                    </li>
+                    <li>
+                        <a href='#' className='bg-primary text-white p-4 rounded-full block'><BsWhatsapp /></a>
+                    </li>
+                </ul>
+        </div>
         <button className='xl:hidden text-2xl p-2' onClick={() => setShowMenu(!showMenu)}>
             {showMenu ? <MdClose/> : <BiMenuAltRight/>}
         </button>
