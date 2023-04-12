@@ -4,13 +4,13 @@ import { BsFacebook, BsWhatsapp, BsInstagram } from 'react-icons/bs'
 
 export const Footer = () => {
     return (
-        <footer className='bg-footer p-8 xl:p-20'>
+        <footer className=' p-8 xl:p-20'>
             <div className='flex flex-col gap-8 md:gap-0 md:flex-row items-center justify-between border-b border-gray-200 pb-8'>
                 {/**Logo */}
-                <a href='#' className='text-2xl font-bold relative p-1 text-white'>
-                    Dolve Vita
-                    <span className='text-primary text-5xl'>.</span>{" "}
-                    <RiSendPlaneFill className='absolute -left-3 -bottom-4 text-primary' />
+                <a href='#' className='font-ephesis text-4xl font-bold relative p-1 text-[#e30052]'>
+                    Dolve<span className='text-white'>Vita</span>
+                    <span className='text-red-400 text-5xl'>.</span>{" "}
+                    {/* <GiCupcake className='absolute -left-3 -bottom-4 text-primary -z-10'/> */}
                 </a>
                 <ul className='flex items-center gap-4'>
                     <li>

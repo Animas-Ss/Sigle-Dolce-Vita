@@ -5,7 +5,7 @@ import { RiDoubleQuotesR } from "react-icons/ri";
 
 export const Reviews = () => {
   return (
-    <div className="p-8 flex flex-col gap-8 bg-gray-100">
+    <div className="p-8 flex flex-col gap-8">
       <h1 className="text-[40px] text-center font-black">
         Dolce Vita una suenio hecho realidad
       </h1>
@@ -13,7 +13,7 @@ export const Reviews = () => {
         <span className="text-5xl text-primary">
           <RiDoubleQuotesL />
         </span>
-        <p className="max-w-2xl text-center text-gray-500">
+        <p className="max-w-2xl text-center text-white">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis
           assumenda quibusdam temporibus incidunt tempore magnam minus vitae.
           Eveniet voluptates earum omnis, odit nostrum, natus perferendis,
